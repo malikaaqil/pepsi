@@ -1,0 +1,247 @@
+body{
+    background-color: #0025FE !important;
+
+}
+.container{
+    /* border: 2px solid red; */
+}
+
+.header > nav{
+    background-color: #0025FE !important;
+}
+
+.nav-item a{
+    color: white !important;
+    font-weight: bold;
+}
+
+.d-flex button{
+    background-color: #0025FE;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.d-flex button :hover{
+    background-color: white;
+    color: #0025FE;
+}
+
+.hero{
+    width: 100%;
+}
+.hero > video{
+    width: 100%;
+ 
+}
+
+
+/* cherry pepsi */
+
+.cherry-box{
+    width: 100%;
+    position: relative;
+}
+.cherry-box > img{
+    width: 100%;
+}
+
+.cherry-box span{
+
+    position: absolute;
+    bottom: 3.5em;
+    left: 40%;
+    /* width: 100%; */
+    /* left: auto; */
+    /* right: auto; */
+    /* margin: 0px auto; */
+}
+
+.cherry-box button{
+    width: 300px;
+    padding: 25px 0px;
+    font-size: x-large;
+    background: white;
+    color: #000;
+    border: none;
+    font-weight: bolder;
+    /* bottom: 3.5em; */
+    /* left: 35%; */
+
+}
+
+
+/* cherry background */
+
+.cherry-background{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+
+}
+
+.cherry-background img{
+    width: 100%;
+}
+
+.cherry-background > p{
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 3.3em;
+
+    /* align-items: center; */
+    /* left: auto; */
+    /* right: auto; */
+    /* margin: 0px auto; */
+    width: 60%;
+    font-size: 4.5em;
+    word-spacing: 4.5px;
+    line-height: 65px;
+    margin: auto;
+    color: white;
+    font-weight: 900;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0)!important;
+    /* background-color: none; */
+}
+.cherry-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    position: absolute;
+    /* top: 10px; */
+    top: 16rem;
+    /* transition: .5s !important; */
+}
+
+.shade-card img{
+    transition: .5s;
+}
+
+.shade-card :hover{
+
+    box-shadow: #0025FE 10px 10px 25px;
+
+}
+
+.card > button{
+    margin: 2rem auto;
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: 900;
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+    .cherry-background > p{
+        width: 40%;
+        left: 9em;
+        /* text-align: center; */
+        font-size: 2em;
+        line-height: 30px;
+    }
+
+    .cherry-cards{
+        /* margin-top: 6em; */
+        width: 100%;
+        gap: 100px;
+        border: 2px solid red;
+        top: 7em;
+    }
+
+    .shade-card{
+        width: 40% !important;
+        height: 20vh !important;
+        border: 5px solid lawngreen !important;
+        margin-top: 5em;
+    }
+    .card button{
+        width: 200px;
+        font-size: 1em;
+        font-weight: 700;
+        /* padding: 0; */
+        margin: 50px auto
+    }
+    
+    
+}
+
+@media screen and (max-width : 768px) {
+
+    .cherry-box button{
+        width: 150px;
+        padding: 10px 10px;
+        font-size: 1rem;
+        /* background: white; */
+        /* color: #000; */
+        /* border: none; */
+        /* font-weight: bolder; */
+        /* bottom: 3.5em; */
+        /* left: 30%; */
+    
+    }
+
+    .cherry-box span{
+        left: 11.5rem;
+        bottom: 1.5rem;
+    }
+
+    .cherry-background > p{
+        width: 100%;
+        left: 0rem;
+        /* text-align: center; */
+
+        font-size: 1.5em;
+        /* line-height: 30px; */
+    }
+
+    .cherry-cards{
+        /* margin-top: 6em; */
+        width: 100%;
+        /* gap: 100px; */
+        border: 2px solid red;
+        top: 0rem;
+    }
+
+    .shade-card{
+        width: 70% !important;
+        /* height: 25vh !important; */
+        border: 5px solid lawngreen !important;
+        margin: 0;
+        /* flex-direction: row; */
+        top: 2rem;
+    }
+    .shade-card img{
+        /* display: none; */
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .card button{
+        /* width: 200px;
+        font-size: 1em;
+        font-weight: 700;
+        margin: 50px auto */
+        /* display:  */
+        visibility: hidden;
+    }
+}
