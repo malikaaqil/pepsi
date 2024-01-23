@@ -1,21 +1,22 @@
-body{
+body {
     background-color: #0025FE !important;
 
 }
-.container{
+
+.container {
     /* border: 2px solid red; */
 }
 
-.header > nav{
+.header>nav {
     background-color: #0025FE !important;
 }
 
-.nav-item a{
+.nav-item a {
     color: white !important;
     font-weight: bold;
 }
 
-.d-flex button{
+.d-flex button {
     background-color: #0025FE;
     color: white;
     border: 2px solid white;
@@ -23,42 +24,44 @@ body{
     font-weight: bold;
 }
 
-.d-flex button :hover{
+.d-flex button :hover {
     background-color: white;
     color: #0025FE;
 }
 
-.hero{
+.hero {
     width: 100%;
 }
-.hero > video{
+
+.hero>video {
     width: 100%;
- 
+
 }
 
 
 /* cherry pepsi */
 
-.cherry-box{
+.cherry-box {
     width: 100%;
     position: relative;
 }
-.cherry-box > img{
+
+.cherry-box>img {
     width: 100%;
 }
 
-.cherry-box span{
+.cherry-box span {
 
     position: absolute;
     bottom: 3.5em;
-    left: 40%;
+    left: 38%;
     /* width: 100%; */
     /* left: auto; */
     /* right: auto; */
     /* margin: 0px auto; */
 }
 
-.cherry-box button{
+.cherry-box button {
     width: 300px;
     padding: 25px 0px;
     font-size: x-large;
@@ -74,7 +77,7 @@ body{
 
 /* cherry background */
 
-.cherry-background{
+.cherry-background {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -82,11 +85,11 @@ body{
 
 }
 
-.cherry-background img{
+.cherry-background img {
     width: 100%;
 }
 
-.cherry-background > p{
+.cherry-background>p {
     position: absolute;
     text-align: center;
     top: 20px;
@@ -104,11 +107,13 @@ body{
     color: white;
     font-weight: 900;
 }
-.card{
-    background-color: rgba(0, 0, 0, 0)!important;
+
+.card {
+    background-color: rgba(0, 0, 0, 0) !important;
     /* background-color: none; */
 }
-.cherry-cards{
+
+.cherry-cards {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -120,17 +125,17 @@ body{
     /* transition: .5s !important; */
 }
 
-.shade-card img{
+.shade-card img {
     transition: .5s;
 }
 
-.shade-card :hover{
+.shade-card :hover {
 
     box-shadow: #0025FE 10px 10px 25px;
 
 }
 
-.card > button{
+.card>button {
     margin: 2rem auto;
     width: 350px;
     padding: 10px 20px;
@@ -144,12 +149,116 @@ body{
 
 /* second video */
 
-.secondVideo{
+.secondVideo {
     width: 100%;
 }
 
-.secondVideo > video{
+.secondVideo>video {
     width: 100%;
+}
+
+
+/* footer cards */
+
+
+.footer-cards-wraper {
+    width: 100%;
+    background-color: #000;
+    padding: 30px 0px;
+
+}
+
+.footer-cards-wraper>h2 {
+    width: 100%;
+    color: #0025FE;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-cards {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #0025FE;
+}
+
+.footer-card-image {
+    width: 100%;
+    cursor: pointer;
+    
+}
+.footer-card-image img{
+    
+    transition: .4s;
+}
+
+.footer-card-image :hover {
+    box-shadow: 2px 2px 20px #0025FE;
+    opacity: 70%;
+    transform: rotate(10deg) scale(1.2);
+
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    display: flex;
+}
+
+.footer-logo{
+    max-width: 15%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.footer-logo > img{
+
+    width: 100%;
+    padding: 10px 10px;
+    cursor: pointer;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.footer-navigations{
+    width: 60%;
+}
+table{
+    margin: auto;
+}
+
+table tr{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 800;
+    gap: 5rem;
+}
+
+table tr td{
+    color: white;
+    margin: 5px 0px;
+    width: 6rem;
+    transition: .4s;
+    cursor: pointer;
+}
+
+table tr :hover{
+    color: rgb(54, 54, 54);
+}
+
+.footer-icons{
+    width: 25%;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-icons > img{
+    width: 2rem;
+    flex-wrap: wrap;
+    cursor: pointer;
 }
 
 
@@ -163,7 +272,7 @@ body{
 
 @media screen and (max-width: 1199px) {
 
-    .cherry-background > p{
+    .cherry-background>p {
         width: 40%;
         left: 9em;
         /* text-align: center; */
@@ -171,7 +280,7 @@ body{
         line-height: 30px;
     }
 
-    .cherry-cards{
+    .cherry-cards {
         /* margin-top: 6em; */
         width: 100%;
         gap: 100px;
@@ -179,95 +288,107 @@ body{
         top: 7em;
     }
 
-    .shade-card{
+    .shade-card {
         width: 40% !important;
         height: 20vh !important;
         /* border: 5px solid lawngreen !important; */
         margin-top: 5em;
     }
-    .card button{
+
+    .card button {
         width: 200px;
         font-size: 1em;
         font-weight: 700;
         /* padding: 0; */
         margin: 50px auto
     }
-    
-    
+
+
 }
 
 @media screen and (max-width : 768px) {
 
-    .cherry-box button{
+    .cherry-box button {
         width: 150px;
         padding: 10px 10px;
         font-size: 1rem;
     }
 
-    .cherry-box span{
+    .cherry-box span {
         left: 11.5rem;
         bottom: 1.5rem;
     }
 
-    .cherry-background > p{
+    .cherry-background>p {
         width: 100%;
         left: 0rem;
         font-size: 1.5em;
     }
 
-    .cherry-cards{
+    .cherry-cards {
         width: 100%;
         /* border: 2px solid red; */
         top: 0rem;
     }
 
-    .shade-card{
+    .shade-card {
         width: 70% !important;
         /* border: 5px solid lawngreen !important; */
         margin: 0;
         top: 4rem;
     }
-    .shade-card img{
+
+    .shade-card img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-    .card button{
+
+    .card button {
         visibility: hidden;
     }
+
+    .footer-cards{
+        width: 100%;
+        justify-content: center;
+    }
+
 }
+
 
 @media screen and (max-width : 410px) {
 
-    .cherry-box button{
+    .cherry-box button {
         width: 100px;
         padding: 8px 8px;
         font-size: .8rem;
     }
 
-    .cherry-box span{
+    .cherry-box span {
         left: 9rem;
         bottom: 1rem;
     }
 
-    .cherry-background > p{
+    .cherry-background>p {
         width: 100%;
         left: 0rem;
         font-size: 1em;
     }
-    
-    .cherry-cards{
+
+    .cherry-cards {
         width: 100%;
         /* border: 2px solid red; */
         display: inline-block;
     }
 
-    .shade-card{
+    .shade-card {
         width: 40% !important;
         /* border: 5px solid lawngreen !important; */
         margin: 0px;
         top: 4.5rem;
         margin: auto;
     }
+
+
    
 }
