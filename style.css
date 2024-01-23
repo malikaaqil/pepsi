@@ -142,6 +142,17 @@ body{
 }
 
 
+/* second video */
+
+.secondVideo{
+    width: 100%;
+}
+
+.secondVideo > video{
+    width: 100%;
+}
+
+
 
 
 
@@ -164,14 +175,14 @@ body{
         /* margin-top: 6em; */
         width: 100%;
         gap: 100px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         top: 7em;
     }
 
     .shade-card{
         width: 40% !important;
         height: 20vh !important;
-        border: 5px solid lawngreen !important;
+        /* border: 5px solid lawngreen !important; */
         margin-top: 5em;
     }
     .card button{
@@ -191,13 +202,6 @@ body{
         width: 150px;
         padding: 10px 10px;
         font-size: 1rem;
-        /* background: white; */
-        /* color: #000; */
-        /* border: none; */
-        /* font-weight: bolder; */
-        /* bottom: 3.5em; */
-        /* left: 30%; */
-    
     }
 
     .cherry-box span{
@@ -208,40 +212,62 @@ body{
     .cherry-background > p{
         width: 100%;
         left: 0rem;
-        /* text-align: center; */
-
         font-size: 1.5em;
-        /* line-height: 30px; */
     }
 
     .cherry-cards{
-        /* margin-top: 6em; */
         width: 100%;
-        /* gap: 100px; */
-        border: 2px solid red;
+        /* border: 2px solid red; */
         top: 0rem;
     }
 
     .shade-card{
         width: 70% !important;
-        /* height: 25vh !important; */
-        border: 5px solid lawngreen !important;
+        /* border: 5px solid lawngreen !important; */
         margin: 0;
-        /* flex-direction: row; */
-        top: 2rem;
+        top: 4rem;
     }
     .shade-card img{
-        /* display: none; */
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
     .card button{
-        /* width: 200px;
-        font-size: 1em;
-        font-weight: 700;
-        margin: 50px auto */
-        /* display:  */
         visibility: hidden;
     }
+}
+
+@media screen and (max-width : 410px) {
+
+    .cherry-box button{
+        width: 100px;
+        padding: 8px 8px;
+        font-size: .8rem;
+    }
+
+    .cherry-box span{
+        left: 9rem;
+        bottom: 1rem;
+    }
+
+    .cherry-background > p{
+        width: 100%;
+        left: 0rem;
+        font-size: 1em;
+    }
+    
+    .cherry-cards{
+        width: 100%;
+        /* border: 2px solid red; */
+        display: inline-block;
+    }
+
+    .shade-card{
+        width: 40% !important;
+        /* border: 5px solid lawngreen !important; */
+        margin: 0px;
+        top: 4.5rem;
+        margin: auto;
+    }
+   
 }
