@@ -368,6 +368,70 @@ table tr :hover{
 }
 
 
+@media screen and (max-width : 488px)  {
+
+    .cherry-box button {
+        /* width: 100px; */
+        /* padding: 8px 8px; */
+        font-size: .5rem;
+        font-weight: 800;
+    }
+
+    .cherry-box span {
+        left: 10rem;
+    }  
+
+
+    .cherry-background{
+        flex-direction: row !important;
+        border: 2px solid red;
+
+    }
+    .cherry-background>p {
+        width: 100%;
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    
+    .cherry-cards {
+        width: 100%;
+        gap: 0px;
+    }
+
+    .res-cards{
+        width: 40% !important;
+    }
+
+    .footer-cards-wraper h2{
+        width: 100%;
+        font-size: 1.5rem;
+        text-wrap: wrap;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+    
+    .footer-logo img{
+        object-fit: contain;
+    }
+
+    .footer-navigations{
+        width: 80%;
+    }
+
+    .footer-icons{
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 0rem;
+    }
+
+    .footer-icons img{
+        width: 1.5rem;
+    }
+}
+
 @media screen and (max-width : 410px) {
 
     .cherry-box button {
@@ -436,3 +500,6 @@ table tr :hover{
    }
 
 }
+
+
+    
