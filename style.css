@@ -101,7 +101,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
     flex-wrap: wrap;
     position: absolute;
     top: 16rem;
